@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../vga_vhd.srcs/sim_1/new/vga_out_tb.v" --include "../../../vga_vhd.ip_user_files/ipstatic/processing_system7_bfm_v2_0/hdl"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

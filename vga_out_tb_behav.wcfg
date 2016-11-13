@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vga_out_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vga_out_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="558200000000000fs"></ZoomStartTime>
+      <ZoomEndTime time="621100000000001fs"></ZoomEndTime>
+      <Cursor1Time time="574200000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="9" />
+   <wvobject db_ref_id="1" fp_name="/vga_out_tb/OSC50M" type="logic">
+      <obj_property name="ElementShortName">OSC50M</obj_property>
+      <obj_property name="ObjectShortName">OSC50M</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/vga_out_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/vga_out_tb/VSYNCX" type="logic">
+      <obj_property name="ElementShortName">VSYNCX</obj_property>
+      <obj_property name="ObjectShortName">VSYNCX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/vga_out_tb/HSYNCX" type="logic">
+      <obj_property name="ElementShortName">HSYNCX</obj_property>
+      <obj_property name="ObjectShortName">HSYNCX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/vga_out_tb/vga_out_0/hcount" type="array">
+      <obj_property name="ElementShortName">hcount[11:0]</obj_property>
+      <obj_property name="ObjectShortName">hcount[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/vga_out_tb/vga_out_0/vcount" type="array">
+      <obj_property name="ElementShortName">vcount[11:0]</obj_property>
+      <obj_property name="ObjectShortName">vcount[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/vga_out_tb/RED" type="array">
+      <obj_property name="ElementShortName">RED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RED[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/vga_out_tb/GREEN" type="array">
+      <obj_property name="ElementShortName">GREEN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">GREEN[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/vga_out_tb/BLUE" type="array">
+      <obj_property name="ElementShortName">BLUE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BLUE[3:0]</obj_property>
+   </wvobject>
+</wave_config>

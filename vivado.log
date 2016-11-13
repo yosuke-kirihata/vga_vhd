@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Nov 14 01:59:14 2016
+# Process ID: 4988
+# Current directory: C:/workspace_vivado/vga_vhd
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6740 C:\workspace_vivado\vga_vhd\vga_vhd.xpr
+# Log file: C:/workspace_vivado/vga_vhd/vivado.log
+# Journal file: C:/workspace_vivado/vga_vhd\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/workspace_vivado/vga_vhd/vga_vhd.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+reset_run synth_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 14 02:04:04 2016...
